@@ -1029,8 +1029,14 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
-.extra{
+@media (min-width: 600px){
+  .extra{
   display: flex;
+    column-gap: 1em;
   justify-content: space-around;
   
   }
+}
+@media (max-width: 600px){
+   
+}
